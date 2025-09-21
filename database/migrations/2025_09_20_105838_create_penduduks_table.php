@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('penduduks', function (Blueprint $table) {
             $table->id();
-            $table->string('address');
-            $table->string('zone')->nullable(); //Contoh: Zon A, B, C
+            $table->string('alamat');
+            $table->string('zon')->nullable(); //Contoh: Zon A, B, C
             $table->timestamps();
         });
     }
